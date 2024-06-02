@@ -6,6 +6,7 @@ This is a simple password generator program implemented in Python. It allows the
 
 - Generates a random password consisting of letters, digits, and punctuation.
 - User can specify the desired length of the password.
+- User can choose whether or not to generate a password.
 
 ## Requirements
 
@@ -61,15 +62,26 @@ To run this program, you need to have Python installed on your system.
 
 ## Usage
 
-1. When the program starts, it will ask you how long you want your password to be.
-2. Enter the desired length for the password.
-3. The program will generate a random password of the specified length and display it.
+1. When the program starts, it will ask you if you want to generate a password.
+2. Enter 'Y' for yes or 'N' for no.
+3. If you choose 'Y', you will be prompted to enter the desired length for the password.
+4. The program will generate a random password of the specified length and display it.
+5. If you choose 'N', the program will exit with a goodbye message.
+6. If you enter any other input, the program will display an error message and exit.
 
 ## Example
 
 ```
+Do you want to generate a password?
+Y/N? Y
 How long do you want your password to be? 12
+The Password with length 12 is:
+
 *3d@9Lv#nE2!
+
+Do you want to generate a password?
+Y/N? N
+Okay, goodbye!
 ```
 
 ## Notes
